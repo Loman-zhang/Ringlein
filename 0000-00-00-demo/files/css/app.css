@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+
+.button{
+	width: 3.6rem;
+	height: 0.75rem;
+	line-height: 0.75rem;
+	background-color: #f9c511;
+	text-align: center;
+	color: #ef4c33;
+	font-size: 0.35rem;
+	margin: 0.15rem auto;
+	border-radius: 0.08rem;
+}
+
+.main-app{
+	width: 6.40rem;
+	height: 100%;
+	margin: 0 auto;
+	font-size: 0.14rem;
+}
+.app-box,
+.swipe-box{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.app-box{
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.share{
+	display: none;
+	width: 6.4rem;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	margin-left: -3.2rem;
+	z-index: 99;
+	background-image: url(../images/share.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	top: 0;
+}
+.yao{
+	position: absolute;
+	width: 0.3rem;
+	height: 0.57rem;
+	background-image: url(../images/yao.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	left: 50%;
+	margin-left: -0.15rem;
+	top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dow-jinbi .img1{
+	-webkit-animation-name: dowjinbi;
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: normal;
+	-webkit-animation-play-state: running;
+}
+.dow-jinbi .img2{
+	-webkit-animation-name: dowjinbi2;
+	-webkit-animation-duration: 2.5s;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: normal;
+	-webkit-animation-play-state: running;
+}
+@-webkit-keyframes dowjinbi {
+  0%{opacity: 0;-webkit-transform: translate(0,0)}
+  30%{opacity: 1;-webkit-transform: translate(80,400)}
+  60% {-webkit-transform: translate(160,800px);}
+  100% {-webkit-transform: translate(240px,1200px);}
+}
+@-webkit-keyframes dowjinbi2 {
+  0%{opacity: 0;-webkit-transform: translate(0,0)}
+  30%{opacity: 1;-webkit-transform: translate(-80,400)}
+  60% {-webkit-transform: translate(-160,800px);}
+  100% {-webkit-transform: translate(-240px,1200px);}
+}
